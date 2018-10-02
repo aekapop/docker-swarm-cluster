@@ -69,3 +69,6 @@ Combines some tooling for creating a good Docker Swarm Cluster.
 - docker-compose-volumes.yml
   - ```export $(cat .env) && docker stack deploy --compose-file docker-compose-volumes.yml logs```
   - Ceph UI: [http://ceph.mycluster.org]()
+
+  ### Fix ceph/demo
+  - from https://github.com/ceph/ceph-container/issues/1169
